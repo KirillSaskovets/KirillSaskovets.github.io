@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+      <div class="container">
+         <div class="upBg"> 
+             <div  class="obolochka1">
+                 <div class="obolochka2">
+                    <div class="numberLine" >
+                        <p id="outputBG">88888888</p>
+                        <p id="output" ></p>
+                    </div>
+                </div>
+             </div>
+         </div>
+ 
+         <div class="mainBg">
+             <button id="AC" onclick="forclear()">AC</button>
+             <button id="action">$</button>
+             <button id="action" onclick=" perc()">%</button>
+             <button class="buttonchern" id="action" onclick=" forDisplay('/')">/</button>
+             <button id="num" onclick=" forDisplay('7')">7</button>
+             <button id="num" onclick=" forDisplay('8')">8</button>
+             <button id="num" onclick=" forDisplay('9')">9</button>
+             <button class="buttonchern" id="action" onclick=" forDisplay('*')">×</button>
+             <button id="num" onclick=" forDisplay('4')">4</button>
+             <button id="num" onclick=" forDisplay('5')">5</button>
+             <button id="num" onclick=" forDisplay('6')">6</button>
+             <button class="buttonchern" id="action" onclick=" forDisplay('-')">-</button>
+             <button id="num" onclick=" forDisplay('1')">1</button>
+             <button id="num" onclick=" forDisplay('2')">2</button>
+             <button id="num" onclick=" forDisplay('3')">3</button>
+             <button class="buttonchern" id="action" onclick=" forDisplay('+')">+</button>
+             <button class="button0" id="num"  onclick=" forDisplay('0')">0</button>
+             <button id="num" onclick=" forDisplay('.')">.</button>
+             <button class="buttonchern" id="eq" onclick=" solve()">=</button>
+         </div>
+     </div>
+     <div>
+         <p id="chek"></p>
+     </div>
+<script src="./code.js"></script>
+</body>
+
+</html>
